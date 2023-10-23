@@ -1,0 +1,7 @@
+a <- c(9, 25, 23, 12, 11, 6, 7, 8, 9, 10)
+print(paste("mean value =",mean(a)))
+print(paste("median value =",median(a)))
+b<-table(a)
+c<-max(b)
+modes<-names(b[c==b])
+print(paste("mode=",modes))
